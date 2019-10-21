@@ -1,6 +1,7 @@
 """
 用numpy实现两层神经网络
 """
+import torch
 import numpy as np
 
 N, D_in, H, D_out = 64, 100, 100, 10
